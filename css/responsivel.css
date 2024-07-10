@@ -1,0 +1,71 @@
+/* Adicionando media query para dispositivos menores que 1246px */
+@media (max-width: 1246px) {
+    .navbar {
+      flex-direction: row;
+      bottom: 0;
+      top: auto;
+      left: 0;
+      width: 100%;
+      justify-content: center;
+      transform: none;
+      background-color: var(--body-color);
+      padding: 10px 0;
+    }
+  
+    .navbar .nav-link {
+      flex-direction: column;
+      row-gap: 0; /* Remove o espaçamento entre os ícones */
+      margin: 0 10px; /* Ajusta o espaçamento lateral entre os links */
+    }
+  
+    .navbar .nav-link .bx {
+      font-size: 1.5rem; /* Ajuste o tamanho dos ícones conforme necessário */
+    }
+  
+    .popular-content {
+      padding: 2px;
+      gap: 5px; /* Espaçamento entre os ícones */
+      width: 90%;
+    }
+  
+    .topoFilmes {
+      max-width: 90%;
+      transform: translate(5%);
+    }
+  
+    .filmes-content {
+      width: 90%;
+      transform: translate(5%);
+    }
+  
+    .logo {
+      font-size: 100%;
+      padding: 10px;
+    }
+  
+    .direitos {
+      bottom: -20px;
+      padding: 10%;
+      width: 100%;
+    }
+  
+    .mobile-banner {
+      display: block; /* Mostra o banner em telas menores que 1246px */
+      width: 90%;
+      transform: translate(18px);
+    }
+  
+    .banner-img {
+      display: none;
+    }
+  
+    .banner-texto {
+      display: none;
+    }
+  
+    .video {
+      width: 90%;
+      transform: translate(18px);
+    }
+  }
+  
